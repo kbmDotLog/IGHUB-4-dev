@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch</title>
+    <script src="https://use.fontawesome.com/99edb94727.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <style>
+        
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 10px;
+            border: 1px solid whitesmoke;
+        }
+        
+        .nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .menu {
+            float: right;
+            margin-top: 5px;
+        }
+    
+        .menu img {
+            width: 35px;
+            height: 30px;
+        }
+    
+        .art {
+            float: left;
+            text-align: left;
+            width: 50px;
+            padding-bottom: 20px;
+            padding-top: 10px;
+        }
+    
+        .shop {
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 20px;
+            color: orangered;
+            font-weight: bold;
+        }
+        
+        .watch img {
+            width: 95%
+        }
+        
+        .watch {
+            box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+            margin: auto;
+            align-items: center;
+            width: 65%;
+            height: 10%;
+        }
+    
+        .loading {
+            width: 60px;
+            align-items: center;
+            margin: 10px auto;
+        }
+            
+        .description h2, p {
+            padding: 15px;
+            width: 95%;
+            line-height: 25px;
+        }
+    
+        .description p{
+            color: grey;
+        }
+    
+        .pq {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .price{
+            line-height: 30px;
+            font-weight: bold;
+            width: 500px;
+        }
+        
+        span{
+            color: grey !important;
+            font-weight: 300 !important;
+        }
+        
+        .pq img {
+            width: 150px;
+        }
+        
+        button {
+            color: white;
+            background-color: orangered;
+            padding: 10px;
+            border: none;
+            width: 35%;
+            margin: 5px 30%;
+            box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+    </style>    
+
+<body>
+
+    <div class="container">
+        <div class="nav">
+            <div class="art">
+                <h4>THE ART MUSEUM</h4>
+            </div>
+            <div class="shop">
+                <h2>SHOP</h2>
+            </div>
+            <div class="menu">
+                <img src="images/menu.png" alt="menu">
+            </div>
+        </div>
+        <div class="watch">
+            <img src="images/images.jpg">
+        </div>              
+            <div class="description">
+                <h2>Braun Classic Watch</h2>
+                <p>This Braun watch is a reissue of the original 1970's design from renowned design team Dietrich Lubs and Dieter Rams, both of whom have work featured in the Museum’s collection. The large watch features a numbered face, and the smaller watch has only index lines. Made of a matte stainless-steel case, black dial, mineral glass, a three-hand quartz movement, and a leather band. Water-resistant.</p>
+            </div>
+        <div class="pq">
+            <div class="price">
+                <p id="price1"><sup>$</sup>160.00<br><span><sup>$</sup>140.00 Member Price</span></p>
+            </div>
+                <img src="images/download.jpg" alt="Quantity">
+        </div>
+                <button type="submit">Add to Cart</button>
+    </div>
+</body>
+</html>
